@@ -68,14 +68,3 @@ def resource_monitor(sc):
 
 s.enter(interval, 1, resource_monitor, (s,))
 s.run()
-
-
-
-
-
-
-
-
-
-
-
