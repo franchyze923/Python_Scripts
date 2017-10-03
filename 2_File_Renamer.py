@@ -56,7 +56,3 @@ def file_renamer():
 
 
 file_renamer()
-
-
-
-
