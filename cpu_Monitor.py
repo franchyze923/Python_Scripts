@@ -7,7 +7,7 @@ import os
 
 s = sched.scheduler(time.time, time.sleep)
 directory = raw_input("Enter output CSV directory:  \n")
-print 'Thanks for entering the output directory, which is {} \n'.format(directory)
+print 'Thanks for entering the output directory :), which is {} \n'.format(directory)
 
 interval = raw_input('Enter interval in seconds:')
 interval = float(interval)
